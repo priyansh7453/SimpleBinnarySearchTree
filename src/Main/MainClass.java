@@ -12,8 +12,6 @@ public class MainClass {
         obj.insert(67);
         System.out.println("input data" + obj);
         obj.isEmpty();
-        obj.maxHeight(obj.);
-        obj.inOrder(obj.r);
         obj.search(23);
     }
 }
