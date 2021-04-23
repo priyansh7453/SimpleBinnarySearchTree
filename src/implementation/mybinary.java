@@ -61,4 +61,12 @@ public class mybinary{
         }
         return response;
     }
+    public int maxHeight(Node node){
+        if (node == null){
+            return 0;
+        }
+        else {
+            return 1+ Math.max(maxHeight(node.getLeft()),maxHeight(node.getRight()));
+        }
+    }
 }
